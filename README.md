@@ -1,2 +1,2 @@
 # hemlock
-A React UI Kit.
+A React UI kit.
