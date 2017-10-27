@@ -9,7 +9,9 @@
 	"author": "Grayson Hicks <graysonhicks@gmail.com>",
 	"homepage": "https://graysonhicks.github.io/hemlock",
 	"license": "MIT",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"start": "webpack-dev-server",
 		"docs": "NODE_ENV=production webpack -p",
@@ -22,6 +24,7 @@
 		"deploy": "yarn run build-storybook && yarn run deploy-storybook"
 	},
 	"devDependencies": {
+		"@storybook/addon-info": "^3.2.13",
 		"@storybook/react": "^3.2.8",
 		"babel-cli": "^6.24.1",
 		"babel-core": "^6.25.0",
