@@ -5,9 +5,7 @@ setDefaults({
 	header: false, // Toggles display of header with component name and description
 	inline: true, // Displays info inline vs click button to view
 	source: true, // Displays the source of story Component
-	propTables: [
-		/* Components used in story */
-	], // displays Prop Tables with this components
+	propTables: false, // displays Prop Tables with this components
 	propTablesExclude: [], // Exclude Components from being shown in Prop Tables section
 	styles: {}, // Overrides styles of addon
 	marksyConf: {}, // Overrides components used to display markdown. Warning! This option's name will be likely deprecated in favor to "components" with the same API in 3.3 release. Follow this PR #1501 for details

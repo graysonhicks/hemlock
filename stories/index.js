@@ -5,3 +5,4 @@ import { action } from "@storybook/addon-actions";
 
 require("./Button");
 require("./Headings");
+require("./Loaders");
