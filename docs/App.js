@@ -1,5 +1,5 @@
 import React from "react";
-import { H1, H2, H3, H4, Button, Slide, Spinner, Input } from "hemlock";
+import { H1, H2, H3, H4, Button, Slide, Spinner, Input, Select } from "hemlock";
 
 const App = () => (
 	<div>
@@ -13,6 +13,15 @@ const App = () => (
 		<Slide />
 		<Spinner />
 		<Input />
+		<br />
+		<Select>
+			<option disabled selected>
+				Test
+			</option>
+			<option>Hello</option>
+			<option>Bye</option>
+			<option>Third</option>
+		</Select>
 	</div>
 );
 
