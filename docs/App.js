@@ -1,5 +1,5 @@
 import React from "react";
-import { H1, H2, H3, H4, Button, Slide } from "hemlock";
+import { H1, H2, H3, H4, Button, Slide, Spinner } from "hemlock";
 
 const App = () => (
 	<div>
@@ -9,6 +9,7 @@ const App = () => (
 		<H4>Hello, world.</H4>
 		<Button>Hello, world.</Button>
 		<Slide />
+		<Spinner />
 	</div>
 );
 
