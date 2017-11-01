@@ -10,3 +10,4 @@ require("./Input");
 require("./Select");
 require("./Checkbox");
 require("./Alert");
+require("./Badge");

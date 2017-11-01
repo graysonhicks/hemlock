@@ -6,3 +6,4 @@ export { Input } from "./components/Input/";
 export { Select } from "./components/Select/";
 export { Checkbox } from "./components/Checkbox/";
 export { Alert } from "./components/Alert/";
+export { Badge } from "./components/Badge/";

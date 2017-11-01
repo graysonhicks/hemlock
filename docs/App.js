@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { H1, H2, H3, H4, Button, Slide, Spinner, Input, Select, Checkbox, Alert } from "hemlock";
+import { H1, H2, H3, H4, Button, Slide, Spinner, Input, Select, Checkbox, Alert, Badge } from "hemlock";
 
 const Box = styled.div`
 	display: flex;
@@ -73,6 +73,10 @@ const App = () => (
 		<Heading>Alert</Heading>
 		<Box>
 			<Alert>This is an alert!</Alert>
+		</Box>
+		<Heading>Badge</Heading>
+		<Box>
+			<Badge>6</Badge>
 		</Box>
 	</div>
 );
