@@ -4,7 +4,6 @@ import * as Fonts from "../fonts";
 
 export const Button = styled.button`
 	background: ${props => (props.primary ? "palevioletred" : "white")};
-	margin: 6px;
 	color: ${props => (props.primary ? "white" : "black")};
 	padding: 6px 12px;
 	border: 1px solid ${props => (props.primary ? "palevioletred" : "black")};

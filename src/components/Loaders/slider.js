@@ -15,7 +15,6 @@ const load = keyframes`
 `;
 
 const Slider = styled.div`
-	margin: 100px;
 	width: 50px;
 	height: 10px;
 	background: #000000;
