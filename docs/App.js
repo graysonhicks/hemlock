@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { H1, H2, H3, H4, Button, Slide, Spinner, Input, Select, Checkbox } from "hemlock";
+import { H1, H2, H3, H4, Button, Slide, Spinner, Input, Select, Checkbox, Alert } from "hemlock";
 
 const Box = styled.div`
 	display: flex;
@@ -11,7 +11,10 @@ const Box = styled.div`
 
 const Heading = styled.div`
 	font-size: 20px;
-	float: left;
+	text-align: center;
+	font-family: Arial;
+	text-decoration: underline;
+	margin-bottom: 15px;
 `;
 
 const App = () => (
@@ -66,6 +69,10 @@ const App = () => (
 		<Heading>Checkbox</Heading>
 		<Box>
 			<Checkbox />
+		</Box>
+		<Heading>Alert</Heading>
+		<Box>
+			<Alert>This is an alert!</Alert>
 		</Box>
 	</div>
 );

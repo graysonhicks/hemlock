@@ -5,3 +5,4 @@ export { Slide, Spinner } from "./components/Loaders/";
 export { Input } from "./components/Input/";
 export { Select } from "./components/Select/";
 export { Checkbox } from "./components/Checkbox/";
+export { Alert } from "./components/Alert/";

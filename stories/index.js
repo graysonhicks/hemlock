@@ -8,3 +8,4 @@ require("./Headings");
 require("./Loaders");
 require("./Input");
 require("./Select");
+require("./Checkbox");
