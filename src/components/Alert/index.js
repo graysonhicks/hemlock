@@ -13,6 +13,7 @@ const StyledAlert = styled.div`
 	justify-content: center;
 	border: 1px solid black;
 	font-family: ${Fonts.primary};
+	border-radius: 2px;
 `;
 
 export class Alert extends Component {

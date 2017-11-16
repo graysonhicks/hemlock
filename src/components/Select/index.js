@@ -8,6 +8,7 @@ const StyledSelect = styled.select`
 	padding: 6px 12px;
 	border: 1px solid black;
 	font-family: ${Fonts.primary};
+	border-radius: 2px;
 `;
 
 export class Select extends Component {
