@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import styled, { keyframes } from "styled-components";
+import * as Colors from "../../colors";
+import * as Utils from "../../utils/loaders";
 
 const spCircRot = keyframes`
     from { transform: rotate(0deg); }
@@ -7,12 +9,12 @@ const spCircRot = keyframes`
 `;
 
 const SpinnerCircle = styled.div`
-	width: 32px;
-	height: 32px;
-	border: 4px rgba(0, 0, 0, 0.25) solid;
-	border-top: 4px rgba(0, 0, 0, 1) solid;
+	width: ${props => (props.size ? props.size + "px" : "32px")};
+	height: ${props => (props.size ? props.size + "px" : "32px")};
+	border: ${props => Utils.getSpinnerBorder(props.size)} ${props => (props.bg ? props.bg : "rgba(0, 0, 0, 0.25)")} solid;
+	border-top: ${props => Utils.getSpinnerBorder(props.size)} ${props => (props.color ? props.color : Colors.primary)} solid;
 	border-radius: 50%;
-	animation: ${spCircRot} 0.6s infinite linear;
+	animation: ${spCircRot} ${props => (props.speed ? props.speed : "0.6s")} infinite linear;
 `;
 
 export class Spinner extends Component {
@@ -21,6 +23,6 @@ export class Spinner extends Component {
 	}
 
 	render() {
-		return <SpinnerCircle />;
+		return <SpinnerCircle {...this.props} />;
 	}
 }

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import * as Fonts from "../../fonts";
 import * as Colors from "../../colors";
-import * as Utils from "../../utils";
+import * as Utils from "../../utils/button";
 
 export const Button = styled.button`
 	background: ${props => (props.bg ? props.bg : Colors.primary)};

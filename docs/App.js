@@ -53,7 +53,7 @@ const App = () => (
 		</Box>
 		<Heading>Button (custom)</Heading>
 		<Box>
-			<Button bg="#80FF9A" size="large" border="black">
+			<Button bg="#005D72" size="large" border="#0085A3">
 				Large
 			</Button>
 		</Box>
@@ -64,6 +64,10 @@ const App = () => (
 		<Heading>Loader (spinner)</Heading>
 		<Box>
 			<Spinner />
+		</Box>
+		<Heading>Loader (spinner / custom)</Heading>
+		<Box>
+			<Spinner color="#0085A3" speed="2s" size="50" />
 		</Box>
 		<Heading>Input</Heading>
 		<Box>
