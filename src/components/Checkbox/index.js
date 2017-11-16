@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import * as Fonts from "../fonts";
+import * as Fonts from "../../fonts";
 
 const StyledCheckbox = styled.input``;
 

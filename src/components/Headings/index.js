@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import * as Fonts from "../fonts";
+import * as Fonts from "../../fonts";
 
 export const H1 = styled.h1`
 	font-size: 30px;

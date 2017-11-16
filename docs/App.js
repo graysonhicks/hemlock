@@ -39,9 +39,23 @@ const App = () => (
 		<Box>
 			<Button>Hello, world.</Button>
 		</Box>
-		<Heading>Button (primary)</Heading>
+		<Heading>Button (custom)</Heading>
 		<Box>
-			<Button primary>Hello, world.</Button>
+			<Button bg="#00C229" size="small">
+				Small
+			</Button>
+		</Box>
+		<Heading>Button (custom)</Heading>
+		<Box>
+			<Button bg="#00881D" size="medium">
+				Medium
+			</Button>
+		</Box>
+		<Heading>Button (custom)</Heading>
+		<Box>
+			<Button bg="#80FF9A" size="large" border="black">
+				Large
+			</Button>
 		</Box>
 		<Heading>Loader (slider)</Heading>
 		<Box>
